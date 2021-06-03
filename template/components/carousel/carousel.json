@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_carousel_carousels",
+    "info": {
+      "name": "carousel",
+      "icon": "camera"
+    },
+    "options": {},
+    "attributes": {
+      "carousel_item": {
+        "type": "component",
+        "repeatable": true,
+        "component": "carousel.carousel-item"
+      }
+    }
+  }
+  

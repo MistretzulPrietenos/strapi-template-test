@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_tab_tabs",
+    "info": {
+      "name": "Tab",
+      "icon": "border-all"
+    },
+    "options": {},
+    "attributes": {
+      "TabPanel": {
+        "type": "component",
+        "repeatable": true,
+        "component": "tab.tab-panel"
+      }
+    }
+  }
+  

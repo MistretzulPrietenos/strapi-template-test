@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_tab_tab_panels",
+    "info": {
+      "name": "TabPanel",
+      "icon": "ad"
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "content": {
+        "type": "richtext"
+      }
+    }
+  }
+  
