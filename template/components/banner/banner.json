@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "name": "Banner",
+    "icon": "band-aid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "OUR_COURSES"
+      ]
+    },
+    "action": {
+      "type": "text"
+    },
+    "style": {
+      "type": "text"
+    }
+  }
+}

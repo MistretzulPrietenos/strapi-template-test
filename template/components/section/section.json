@@ -1,0 +1,25 @@
+{
+  "collectionName": "sections",
+  "info": {
+    "name": "section",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "column_number": {
+      "type": "integer",
+      "default": 4,
+      "max": 4,
+      "min": 1
+    },
+    "Bloc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.bloc"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_section_blocs",
+  "info": {
+    "name": "Bloc",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "CALENDAR_EVT",
+        "CITATION",
+        "CTA_MARKETING",
+        "IMAGE_LINK",
+        "KEY_FIGURES",
+        "LINK",
+        "TWITTER",
+        "VIDEO"
+      ]
+    },
+    "target_link": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "style": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "row_span": {
+      "type": "integer",
+      "default": 1,
+      "min": 1
+    },
+    "col_span": {
+      "type": "integer",
+      "max": 4,
+      "min": 1
+    }
+  }
+}
