@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_additonal_links",
+  "info": {
+    "name": "AdditonalLink",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "URI": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

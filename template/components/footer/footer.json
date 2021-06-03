@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "AdditonalLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.additonal-link"
+    }
+  }
+}
