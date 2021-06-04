@@ -9,6 +9,9 @@
       "title": {
         "type": "string"
       },
+      "anchor": {
+        "type": "string"
+      },
       "content": {
         "type": "richtext"
       }

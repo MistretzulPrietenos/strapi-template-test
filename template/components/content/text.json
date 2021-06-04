@@ -6,6 +6,9 @@
     },
     "options": {},
     "attributes": {
+      "anchor": {
+        "type" : "string"
+      },
       "text": {
         "type": "richtext",
         "required": true,
