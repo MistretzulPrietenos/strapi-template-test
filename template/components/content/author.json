@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_authors",
+  "info": {
+    "name": "Author",
+    "icon": "user-edit"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "SYSTEM",
+        "GENERIC",
+        "COAUTHOR",
+        "EXTERNAL"
+      ]
+    }
+  }
+}

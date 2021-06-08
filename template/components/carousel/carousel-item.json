@@ -1,31 +1,30 @@
 {
-    "collectionName": "components_carousel_carousel_items",
-    "info": {
-      "name": "carousel_item",
-      "icon": "align-justify"
-    },
-    "options": {},
-    "attributes": {
-      "title": {
-        "type" : "string",
-        "pluginOptions": {
-            "i18n": {
-              "localized": true
-            }
-        }
-      },
-      "media": {
-        "collection": "file",
-        "via": "related",
-        "allowedTypes": [
-          "images",
-          "files",
-          "videos"
-        ],
-        "plugin": "upload",
-        "required": false,
-        "pluginOptions": {}
+  "collectionName": "components_carousel_carousel_items",
+  "info": {
+    "name": "carousel_item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type" : "string",
+      "pluginOptions": {
+          "i18n": {
+            "localized": true
+          }
       }
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
-  
+}
